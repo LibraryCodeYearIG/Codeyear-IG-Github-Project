@@ -22,9 +22,9 @@ If you're looking for the "how do I participate" section, it doesn't exist yet. 
 
 The full Markdown syntax documentation is [here](http://daringfireball.net/projects/markdown/syntax) and the Github-flavored documentation is [here](http://github.github.com/github-flavored-markdown/). The Github syntax is almost identical; one can get by without ever referencing its documentation. The most useful piece is highlighting specific programming languages like so:
 
-\`\`\`javascript
-// your code goes here
-\`\`\`
+    ```javascript
+    // your code goes here
+    ```
 
 The JavaScript inside that block would be syntax-highlighted appropriately.
 

@@ -25,7 +25,7 @@ The full Markdown syntax documentation is [here](http://daringfireball.net/proje
 ```
 ```javascript
 // your code goes here
-```
+\```
 ```
 
 The JavaScript inside that block would be syntax-highlighted appropriately.

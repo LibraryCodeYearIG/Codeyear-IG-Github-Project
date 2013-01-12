@@ -12,6 +12,10 @@ I don't know, do you? A collaborative project would be nice rather than just a b
 - If it's web-based, then maybe use [Github Pages](http://pages.github.com/) as a place to display the result?
 - Something like [The Drupal Ladder](http://drupalladder.org/) which offers a scaffold for people to learn more about coding/git/a common library technology? In the process of learning we develop a learning material for others.
 
+## Very Much Under Construction
+
+If you're looking for the "how do I participate" section, it doesn't exist yet. This is just the bare bones of an idea which will be fleshed out in the coming months.
+
 ## What is Markdown?
 
 [Markdown](http://daringfireball.net/projects/markdown/basics)—the language this readme is written in—is a markup language, like HTML and XML, designed to be lightweight and easy to type quickly. Markdown files typically end in .md, .mdown, or .markdown. Github uses markdown as its preferred format for displaying readme files like this one.

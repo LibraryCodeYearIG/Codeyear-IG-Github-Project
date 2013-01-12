@@ -1,6 +1,8 @@
-# Git Project from the LITA/ALTCS Library Codeyear IG
+# Git Project from the LITA/ALCTS Library Code Year IG
 
 Welcome! This repository will be a resource where LIS types can play around with git and github.
+
+You do not have to be a member of the Library Code Year Interest Group to participate.
 
 ## What will we do?
 

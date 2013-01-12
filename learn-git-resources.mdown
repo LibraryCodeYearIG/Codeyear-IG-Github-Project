@@ -24,7 +24,7 @@ Placeholder section for now. Installing and configuring git can be a big stumbli
 
 ## Git GUIs
 
-Graphical software that lets you use git without needed the command line.
+Graphical software that lets you use git without the command line.
 
 - [Github for Mac](http://mac.github.com/)
 - [Github for Windows](http://windows.github.com/)

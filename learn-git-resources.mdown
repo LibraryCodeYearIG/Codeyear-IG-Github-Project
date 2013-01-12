@@ -10,7 +10,7 @@ Placeholder section for now. Installing and configuring git can be a big stumbli
 - [OpenHatch](https://openhatch.org) has a _great_ "training mission" on [using git](https://openhatch.org/missions/git)
 - Code School's [Try Git](http://www.codeschool.com/courses/try-git) course (looks like a few lessons are free, later ones are paid?). They also have a [Git Real](http://gitreal.codeschool.com/) course, difference between them is unclear.
 
-## Learn Git_hub_
+## Learn Github
 
 - [Github's Help dox](https://help.github.com/) are pretty good.
 - [learn.github.com](learn.github.com) has an overwhelming amount of material, perhaps too much to be useful

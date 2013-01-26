@@ -1,0 +1,31 @@
+# Instructions
+
+Here are the step by step instructions to getting rolling with git and contributing on github.
+
+## What is git? What is github?
+
+Git is an open source [version control](https://en.wikipedia.org/wiki/Version_control) software. Think of it as a way to manage multiple people working on the same project; git allows them to smartly "merge" changes to avoid conflicts. It also keeps a history of the project, so that you can roll back to a time before an error was introduced.
+
+Github is a cloud-based storage site for git. It is a central place where everyone can download projects, track ongoing issues, and view information. It's not the only such site—[Gitorious](https://gitorious.org/) is another one, for example—but it's very popular and has some nice features.
+
+## First Step - Install git
+
+Directions are TBD for these and below. They will be a mixture of verbatim instructions and links to helpful tutorials that explain things (no reinventing the wheel allowed!).
+
+## Second Step - Create a github account
+
+This is one of the easier steps - just visit [Github](https://github.com/) and register your username, pick a password, etc. It's linking your local git work to Github that'll be a bit tricker.
+
+## Third Step - Clone this Repository onto your local computer
+
+## Fourth Step - Add you name to the "List of People"
+
+## Fifth Step - Send a Pull Request to add your changes
+
+## Sixth Step - View the project online & see your changes!
+
+You just contributed to a project on Github, congratulations! Pretty cool, isn't it? In the future, we hope to have further projects which are more complicated and necessitate using some of git's advanced features. For now, relax and get yourself a delicious beverage, you've earned it.
+
+## I'm addicted; where can I do more?
+
+The [Learning Git Resources](https://github.com/phette23/Codeyear-IG-Github-Project/blob/master/learn-git-resources.mdown) document in this repository has links to a few more tutorials, some of which cover new features we didn't talk about. Check them out and report back if any are particularly good or bad!

@@ -1,0 +1,5 @@
+# List of People
+
+Add your name and a link to your Github account below. Optionally, link to a picture of yourself.
+
+Having trouble? [Open an issue](https://github.com/phette23/Codeyear-IG-Github-Project/issues) (new issue button) and someone will reply with help.

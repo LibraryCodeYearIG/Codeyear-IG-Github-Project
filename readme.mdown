@@ -4,17 +4,25 @@ Welcome! This repository will be a resource where LIS types can play around with
 
 You do not have to be a member of the Library Code Year Interest Group to participate.
 
-## What will we do?
+## What do I do here?
 
-I don't know, do you? A collaborative project would be nice rather than just a bunch of markdown files. Ideas:
+We will have three projects in this repository eventually: one introduction one to get you rolling with github, one web design one involving HTML/CSS/JavaScript, & one metadata project.
 
-- Something web-based, since many people are familiar with HTML, CSS, & JavaScript
-- If it's web-based, then maybe use [Github Pages](http://pages.github.com/) as a place to display the result?
-- Something like [The Drupal Ladder](http://drupalladder.org/) which offers a scaffold for people to learn more about coding/git/a common library technology? In the process of learning we develop a learning material for others.
+- To get started: follow the instructions in [the getting started](Getting%20Started/Instructions.mdown) project. This will have you install git, set up an account on github, and contribute to this repository.
+- Web Design - project TBD! We've discussed something using the [Worldcat Search API](http://www.oclc.org/worldcatapi/default.htm) which could be easily reused at almost any library.
+- Metadata - project TBD! We've discussed working with Linked Data, specifically the [Friend-of-a-Friend](https://en.wikipedia.org/wiki/FOAF_(software)) ontology. Perhaps working with sample MARC records with the [pymarc](https://github.com/edsu/pymarc) or [ruby-marc](https://github.com/ruby-marc/ruby-marc) libraries, too.
 
 ## Very Much Under Construction
 
-If you're looking for the "how do I participate" section, it doesn't exist yet. This is just the bare bones of an idea which will be fleshed out in the coming months.
+If the two "TBD" projects didn't clue you in, this repository is still a long ways from being complete. See below for how to help.
+
+## I'm already a git master, how can I help?
+
+Awesome! Thanks for offering.
+
+You can answer people's questions in the issue queue or propose projects for people to work on. Does something not make sense? Are the instructions inaccurate or poorly written? Do you have more resources on learning git? Send a pull request! We'll be happy to include your ideas.
+
+Right now the biggest priority is finishing the "Getting Started" project so that people can get up and running with git and Github.
 
 ## What is Markdown?
 

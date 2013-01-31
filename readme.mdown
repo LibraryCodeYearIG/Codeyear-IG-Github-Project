@@ -8,7 +8,7 @@ You do not have to be a member of the Library Code Year Interest Group to partic
 
 We will have three projects in this repository eventually: one introduction one to get you rolling with github, one web design one involving HTML/CSS/JavaScript, & one metadata project.
 
-- To get started: follow the instructions in [the getting started](https://github.com/phette23/Codeyear-IG-Github-Project/blob/master/Getting%20Started/readme.mdown) project. This will have you install git, set up an account on github, and contribute to this repository.
+- To get started: follow the instructions in [the getting started](Getting%20Started/readme.mdown) project. This will have you install git, set up an account on github, and contribute to this repository.
 - Web Design - project TBD! We've discussed something using the [Worldcat Search API](http://www.oclc.org/worldcatapi/default.htm) which could be easily reused at almost any library.
 - Metadata - project TBD! We've discussed working with Linked Data, specifically the [Friend-of-a-Friend](https://en.wikipedia.org/wiki/FOAF_(software)) ontology. Perhaps working with sample MARC records with the [pymarc](https://github.com/edsu/pymarc) or [ruby-marc](https://github.com/ruby-marc/ruby-marc) libraries, too.
 

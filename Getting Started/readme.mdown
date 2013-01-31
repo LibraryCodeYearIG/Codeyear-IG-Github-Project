@@ -28,4 +28,4 @@ You just contributed to a project on Github, congratulations! Pretty cool, isn't
 
 ## I'm addicted; where can I do more?
 
-The [Learning Git Resources](https://github.com/phette23/Codeyear-IG-Github-Project/blob/master/learn-git-resources.mdown) document in this repository has links to a few more tutorials, some of which cover new features we didn't talk about. Check them out and report back if any are particularly good or bad!
+The [Learning Git Resources](../learn-git-resources.mdown) document in this repository has links to a few more tutorials, some of which cover new features we didn't talk about. Check them out and report back if any are particularly good or bad!

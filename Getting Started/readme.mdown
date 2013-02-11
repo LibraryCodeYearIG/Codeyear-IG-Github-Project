@@ -1,19 +1,19 @@
 # Instructions
 
-Here are the step by step instructions to getting rolling with git and contributing on github.
+Here are the step by step instructions to getting rolling with Git and contributing on github.
 
-## What is git? What is github?
+## What is Git? What is Github?
 
-Git is an open source [version control](https://en.wikipedia.org/wiki/Version_control) software. Think of it as a way to manage multiple people working on the same project; git allows them to smartly "merge" changes to avoid conflicts. It also keeps a history of the project, so that you can roll back to a time before an error was introduced.
+Git is an open source [version control](https://en.wikipedia.org/wiki/Version_control) software. Think of it as a way to manage multiple people working on the same project; Git allows them to smartly "merge" changes to avoid conflicts. It also keeps a history of the project, so that you can roll back to a time before an error was introduced.
 
 Github is a cloud-based storage site for git. It is a central place where everyone can download projects, track ongoing issues, and view information. It's not the only such site—[Gitorious](https://gitorious.org/) is another one, for example—but it's very popular and has some nice features.
 
-## First Step - Install git
+## First Step - Install Git
 
 See Pro Git [Chapter 1.4 Getting Started](http://git-scm.com/book/en/Getting-Started-Installing-Git).
 
 On Windows:
-Visit [git-scm.com](http://git-scm.com) and click [the download button](http://git-scm.com/downloads) for Windows. Once installed, you should have a "Git Bash" app as well as a contextual option to "Open Git Bash here" whenever you right-click on a folder in Windows Explorer. Git Bash responds to the same commands as Terminal apps on Mac or Linux so you'll be able to use the same commands despite using a different platform.
+Visit [git-scm.com](http://git-scm.com) and click [the download button](http://git-scm.com/downloads) for Windows. Once installed, you should have a *Git Bash* app as well as a contextual option to "Open Git Bash here" whenever you right-click on a folder in Windows Explorer. Git Bash responds to the same commands as Terminal apps on Mac or Linux so you'll be able to use the same commands despite using a different platform.
 
 On Mac:
 Install [XCode.app](https://developer.apple.com/xcode/), a free (but humongous) download in the Mac App Store. Run XCode and go to *Preferences > Downloads > Components* and then *Install* the *Command Line Tools*.
@@ -21,28 +21,28 @@ Alternatively, use [the graphical Git installer](http://code.google.com/p/git-os
 Or, if you have [Homebrew](http://mxcl.github.com/homebrew/) installed, run `brew install git`.
 
 On Linux:
-On Debian-based Linux (including Ubuntu), open a Terminal app and type `sudo apt-get install git`. You will be prompted for your password and git will be installed.
-On Fedora Linux, open a Terminal app and type `sudo yum install git-core`. You will be prompted for your password and git will be installed.
+On Debian-based Linux (including Ubuntu), open a Terminal app and type `sudo apt-get install git`. You will be prompted for your password and Git will be installed.
+On Fedora Linux, open a Terminal app and type `sudo yum install git-core`. You will be prompted for your password and Git will be installed.
 
-Not sure if git is installed? In a terminal, type `which git`. If git is installed and available, it will print out a path to where git is installed, e.g.
+Not sure if Git is installed? In a terminal, type `which git`. If Git is installed and available, it will print out a path to where Git is installed, e.g.
 
 ```bash
 $ which git
 /usr/local/bin/git
 ```
 
-Pretty sure git is installed, but `which git` is still returning nothing?
-It's possible that git is installed but is not in [your path](http://superuser.com/questions/284342/what-are-path-and-other-environment-variables-and-how-can-i-set-or-use-them#answer-284351). In order to get git in your path, you need to add a command like
+Pretty sure Git is installed, but `which git` is still returning nothing?
+It's possible that Git is installed but is not in [your path](http://superuser.com/questions/284342/what-are-path-and-other-environment-variables-and-how-can-i-set-or-use-them#answer-284351). In order to get Git in your path, you need to add a command like
 
 ```bash
 export PATH="/path/to/git/bin:$PATH"
 ```
 
-to your the .bash_profile file in your home directory (create a .bash_profile if none exist). This `export` command essentially says "prepend the path to git to my PATH environment variable" and it has the effect of making the git command available in your Terminal.
+to your the .bash_profile file in your home directory (create a .bash_profile if none exist). This `export` command essentially says "prepend the path to Git to my PATH environment variable" and it has the effect of making the Git command available in your Terminal.
 
-## Second Step - Create a github account
+## Second Step - Create a Github account
 
-This is one of the easier steps - just visit [Github](https://github.com/) and register your username, pick a password, etc. It's linking your local git work to Github that'll be a bit tricker.
+This is one of the easier steps - just visit [Github](https://github.com/) and register your username, pick a password, etc. It's linking your local Git work to Github that'll be a bit tricker.
 
 ## Third Step - Clone this Repository onto your local computer
 
@@ -52,7 +52,7 @@ This is one of the easier steps - just visit [Github](https://github.com/) and r
 
 ## Sixth Step - View the project online & see your changes!
 
-You just contributed to a project on Github, congratulations! Pretty cool, isn't it? In the future, we hope to have further projects which are more complicated and necessitate using some of git's advanced features. For now, relax and get yourself a delicious beverage, you've earned it.
+You just contributed to a project on Github, congratulations! Pretty cool, isn't it? In the future, we hope to have further projects which are more complicated and necessitate using some of Git's advanced features. For now, relax and get yourself a delicious beverage, you've earned it.
 
 ## I'm addicted; where can I do more?
 

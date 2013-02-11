@@ -8,6 +8,7 @@ Placeholder section for now. Installing and configuring git can be a big stumbli
 
 - ACRL TechConnect's "[Gentle Introduction to Modern Version Control](http://acrl.ala.org/techconnect/?p=1191)" by John Fink is a good starting point for understanding version control (the type of software git is)
 - [OpenHatch](https://openhatch.org) has a _great_ "training mission" on [using git](https://openhatch.org/missions/git)
+- [Learning Git](https://speakerdeck.com/bitsandbooks/learning-git) presentation by Rob Dumas
 - Code School's [Try Git](http://www.codeschool.com/courses/try-git) course (looks like a few lessons are free, later ones are paid?). They also have a [Git Real](http://gitreal.codeschool.com/) course, difference between them is unclear.
 
 ## Learn Github

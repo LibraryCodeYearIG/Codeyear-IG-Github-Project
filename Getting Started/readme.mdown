@@ -10,7 +10,35 @@ Github is a cloud-based storage site for git. It is a central place where everyo
 
 ## First Step - Install git
 
-Directions are TBD for these and below. They will be a mixture of verbatim instructions and links to helpful tutorials that explain things (no reinventing the wheel allowed!).
+See Pro Git [Chapter 1.4 Getting Started](http://git-scm.com/book/en/Getting-Started-Installing-Git).
+
+On Windows:
+Visit [git-scm.com](http://git-scm.com) and click [the download button](http://git-scm.com/downloads) for Windows. Once installed, you should have a "Git Bash" app as well as a contextual option to "Open Git Bash here" whenever you right-click on a folder in Windows Explorer. Git Bash responds to the same commands as Terminal apps on Mac or Linux so you'll be able to use the same commands despite using a different platform.
+
+On Mac:
+Install [XCode.app](https://developer.apple.com/xcode/), a free (but humongous) download in the Mac App Store. Run XCode and go to *Preferences > Downloads > Components* and then *Install* the *Command Line Tools*.
+Alternatively, use [the graphical Git installer](http://code.google.com/p/git-osx-installer).
+Or, if you have [Homebrew](http://mxcl.github.com/homebrew/) installed, run `brew install git`.
+
+On Linux:
+On Debian-based Linux (including Ubuntu), open a Terminal app and type `sudo apt-get install git`. You will be prompted for your password and git will be installed.
+On Fedora Linux, open a Terminal app and type `sudo yum install git-core`. You will be prompted for your password and git will be installed.
+
+Not sure if git is installed? In a terminal, type `which git`. If git is installed and available, it will print out a path to where git is installed, e.g.
+
+```bash
+$ which git
+/usr/local/bin/git
+```
+
+Pretty sure git is installed, but `which git` is still returning nothing?
+It's possible that git is installed but is not in [your path](http://superuser.com/questions/284342/what-are-path-and-other-environment-variables-and-how-can-i-set-or-use-them#answer-284351). In order to get git in your path, you need to add a command like
+
+```bash
+export PATH="/path/to/git/bin:$PATH"
+```
+
+to your the .bash_profile file in your home directory (create a .bash_profile if none exist). This `export` command essentially says "prepend the path to git to my PATH environment variable" and it has the effect of making the git command available in your Terminal.
 
 ## Second Step - Create a github account
 

@@ -42,11 +42,32 @@ to your the .bash_profile file in your home directory (create a .bash_profile if
 
 ## Second Step - Create a Github account
 
-This is one of the easier steps - just visit [Github](https://github.com/) and register your username, pick a password, etc. It's linking your local Git work to Github that'll be a bit tricker.
+This is one of the easier steps - just visit [Github](https://github.com/) and register your username, pick a password, etc. Now we just need to tell git your name and email. In a Terminal, run these commands:
+
+```bash
+git config --global user.name "Firstname Lastname"
+git config --global user.email "you@email.com"
+```
 
 ## Third Step - Clone this Repository onto your local computer
 
-## Fourth Step - Add you name to the "List of People"
+```bash
+git clone https://github.com/LibraryCodeYearIG/Codeyear-IG-Github-Project.git
+```
+
+You'll see a result like this:
+
+```
+Cloning into 'Codeyear-IG-Github-Project'...
+remote: Counting objects: 70, done.
+remote: Compressing objects: 100% (59/59), done.
+remote: Total 70 (delta 34), reused 47 (delta 11)
+Unpacking objects: 100% (70/70), done.
+```
+
+Now, inside the Codeyear-IG-Github-Project folder, you have all the files of this project on your computer. Not only that, because this is a cloned git repository, you have the entire _history_ of the project. Try moving into the project's directory with `cd Codeyear-IG-Github-Project` and running `git log` to see the last few things that changed in the repository.
+
+## Fourth Step - Add your name to the "List of People"
 
 ## Fifth Step - Send a Pull Request to add your changes
 

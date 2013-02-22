@@ -147,7 +147,9 @@ We have to type `List\ of\ People.mdown` instead of `List\ of\ People.mdown` bec
 
 Up until now, we've been doing a whole lot of Git with very little "hub." We used the Fork button to copy the project, sure, but we're just playing by ourselves and not contributing back to the original Codeyear-IG-Github-Project.
 
-We've changed our *local* repository, and pushed those local changes to the *remote* repository, but what about getting the changes from our remote into the Codeyear remote? Simple, we use Github's brilliant addition to version control, the Pull Request. Every Github repo (we're cool enough to just call them repos by now) has a Pull Request button up at the top. Github has [a nice help page](https://help.github.com/articles/creating-a-pull-request) that walks us through the process, which is basically:
+We've changed our *local* repository, and pushed those local changes to the *remote* repository, but what about getting the changes from our remote into the Codeyear remote? Simple, we use Github's brilliant addition to version control, the Pull Request. ![Github's Pull Request button](pull-request-btn.png "Click me to submit your changes!")
+
+Every Github repo (we're cool enough to just call them repos by now) has a Pull Request button up at the top. Github has [a nice help page](https://help.github.com/articles/creating-a-pull-request) that walks us through the process, which is basically:
 
 - Go to your repo and click "Pull Request"
 - Pick the Master branch—it's the only branch we have right now—and then select the corresponding Master branch of LibraryCodeYearIG/Codeyear-IG-Github-Project as the target to receive your changes

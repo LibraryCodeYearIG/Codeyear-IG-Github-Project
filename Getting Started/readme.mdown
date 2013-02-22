@@ -2,7 +2,7 @@
 
 Here are the step by step instructions to getting rolling with Git and contributing on github.
 
-## Note on Command Samples
+## Note on command samples
 
 Lines beginning with `$` are commands that you type. The `$` just represents your command prompt, yours may differ (oftentimes the command prompt shows the current user and what directory they're in). Lines lacking a `$` are generally the output of commands; they're information or results that the commands are giving you.
 
@@ -46,20 +46,22 @@ to the .bash_profile file in your home directory (create a .bash_profile if none
 
 ## Second Step - Create a Github account
 
-This is one of the easier steps - just visit [Github](https://github.com/) and register your username, pick a password, etc. Now we just need to tell Git your name and email. In a Terminal, run these commands:
+This is one of the easier steps - just visit [Github](https://github.com/) and register a username, pick a password, etc. Now we just need to tell Git our name and email. In a Terminal, run these commands:
 
 ```bash
 $ git config --global user.name "Firstname Lastname"
 $ git config --global user.email "you@email.com"
 ```
 
-## Third Step - Clone this Repository onto your local computer
+## Third Step - "Fork" and "clone" this repository
+
+Up at the top of this repository's Github page, click the "Fork" button. An exact copy of the project will be added to our Github account. Now all we need to do is clone the project from Github onto your computer. Open up a Terminal and type
 
 ```bash
-$ git clone https://github.com/LibraryCodeYearIG/Codeyear-IG-Github-Project.git
+$ git clone https://github.com/OurUsername/Codeyear-IG-Github-Project.git
 ```
 
-You'll see a result like this:
+We'll see a result like this:
 
 ```bash
 Cloning into 'Codeyear-IG-Github-Project'...
@@ -69,11 +71,11 @@ remote: Total 70 (delta 34), reused 47 (delta 11)
 Unpacking objects: 100% (70/70), done.
 ```
 
-Now, inside the Codeyear-IG-Github-Project folder, you have all the files of this project on your computer. Not only that, because this is a cloned Git repository, you have the entire _history_ of the project. Try moving into the project's directory with `cd Codeyear-IG-Github-Project` and running `git log` to see the last few things that changed in the repository.
+Now, inside the Codeyear-IG-Github-Project folder, we have all the files of this project on your computer. Not only that, because this is a cloned Git repository, we have the entire _history_ of the project. Try moving into the project's directory with `cd Codeyear-IG-Github-Project` and running `git log` to see the last few things that changed in the repository.
 
 ## Fourth Step - Add your name to the "List of People"
 
-In the "Getting Started" folder is a list of people. For practice, open up the "List of People.mdown" file and add your name. It doesn't have to be your real name, though we'll be able to see your Github account eventually. Now save the file and run the `git status` command. You should see something like this:
+In the "Getting Started" folder is a list of people. For practice, open up the "List of People.mdown" file and add your name. It doesn't have to be your real name, though your Github account will be associated with your changes eventually. Now save the file and run the `git status` command. We should see something like this:
 
 ```bash
 # On branch master
@@ -86,9 +88,9 @@ In the "Getting Started" folder is a list of people. For practice, open up the "
 no changes added to commit (use "git add" and/or "git commit -a")
 ```
 
-Understanding the idea behind a "commit" and your local changes is a major part of version control. Essentially, Git can tell that the file has been altered, but it has yet to add your changes to its history of the project. You should feel free to go crazy and edit files all you want, including potentially breaking the project you're working on, but try to only commit a finished, working product because commits end up in the final history.
+Understanding the idea behind a "commit" and our local changes is a major part of version control. Essentially, Git can tell that the file has been altered, but it has yet to add your changes to its history of the project. We can go crazy and edit files all we want, including potentially breaking the project we're working on, but should try to only commit a finished, working product because commits end up in the final history.
 
-When you're done with your edits, the `git add` command is where you stage your changes; you might edit one file, add it, edit another file, add it, and so on before actually running `git commit`. The commit command finalizes your changes and adds them to the project's history. Let's walk through this whole process, running `git status` throughout to see how things change.
+When we're done with our edits, the `git add` command is where we stage our changes; we might edit one file, add it, edit another file, add it, and so on before actually running `git commit`. The commit command finalizes our changes and adds them to the project's history. Let's walk through this whole process, running `git status` throughout to see how things change.
 
 ```bash
 $ git add List\ of\ People.mdown
@@ -111,7 +113,7 @@ We've used the `commit` command in here, specifically `git commit -m`. The `-m` 
 
 With but a handful of commands we've gone from having a perfect clone of the original project, to some changes that are not recorded by Git, to letting Git know which files we're going to add to its history, to adding those changes to the history, and then ending with a confirmation that the "working directory [is] clean" meaning that the last commit Git knows about and the current state of our files is identical.
 
-You just made a `commit`! Sweet! If you're still skeptical, try running `git log` which prints out the last several commits. Yours will be at the top.
+We just made a `commit`! Sweet! If we're still skeptical, we can run `git log` which prints out the last several commits. Ours will be at the top.
 
 ```bash
 $ git log
@@ -122,11 +124,37 @@ Date:   Mon Feb 18 22:30:15 2013 -0500
     Adding my name
 ```
 
+We actually still need to do one more thing; our changes are in Git's history, but only the Git history _on our computer_. If we visit github.com/OurUsername/Codeyear-IG-Github-Project it still won't have our name on the List of People. We need to `push` our changes to the remote repository on Github. Luckily, this is a fairly simple command:
+
+```bash
+$ git push
+Counting objects: 11, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (8/8), done.
+Writing objects: 100% (8/8), 2.65 KiB, done.
+Total 8 (delta 2), reused 0 (delta 0)
+To https://github.com/OurUsername/Codeyear-IG-Github-Project.git
+   07449e6..4257ccf  master -> master
+```
+
+Now try visiting https://github.com/OurUsername/Codeyear-IG-Github-Project and browsing to the List of People; our name is on it! We've changed a file, added it to our local Git repository, and then pushed our local changes to the Git repository sitting in Github's cloud. This alone is pretty phenomenal; we now know how to publish our work online with a complete history included.
+
 ### Digression on Escaping Spaces
 
-We have to type `List\ of\ People.mdown` instead of `List\ of\ People.mdown` because spaces are meaningful characters on the command line; they separate one command from the next. The \ escapes the following character. You can also wrap a string in quotes to escape it. But the biggest savior here can be tab completion; start typing "List" and then hit tab; suddenly, the rest of the file's name appears, escaped spaces and all. This can save you a lot of typing and help reduce mistakes.
+We have to type `List\ of\ People.mdown` instead of `List\ of\ People.mdown` because spaces are meaningful characters on the command line; they separate one command from the next. The \ [escapes](https://en.wikipedia.org/wiki/Escape_character#Programming_and_data_formats) the character that follows it. We can also wrap a string in quotes to escape it. But the biggest savior here can be tab completion; start typing "List" and then hit tab; suddenly, the rest of the file's name appears, escaped spaces and all. This can save us a lot of typing and help reduce mistakes.
 
 ## Fifth Step - Send a Pull Request to add your changes
+
+Up until now, we've been doing a whole lot of Git with very little "hub." We used the Fork button to copy the project, sure, but we're just playing by ourselves and not contributing back to the original Codeyear-IG-Github-Project.
+
+We've changed our *local* repository, and pushed those local changes to the *remote* repository, but what about getting the changes from our remote into the Codeyear remote? Simple, we use Github's brilliant addition to version control, the Pull Request. Every Github repo (we're cool enough to just call them repos by now) has a Pull Request button up at the top. Github has [a nice help page](https://help.github.com/articles/creating-a-pull-request) that walks us through the process, which is basically:
+
+- Go to your repo and click "Pull Request"
+- Pick the Master branch—it's the only branch we have right now—and then select the corresponding Master branch of LibraryCodeYearIG/Codeyear-IG-Github-Project as the target to receive your changes
+- Write a brief title and description for our edification
+- Hit "Send pull request"
+
+Someone from the Libcodeyear organization will review your pull request and accept it.
 
 ## Sixth Step - View the project online & see your changes!
 

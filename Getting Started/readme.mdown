@@ -69,6 +69,58 @@ Now, inside the Codeyear-IG-Github-Project folder, you have all the files of thi
 
 ## Fourth Step - Add your name to the "List of People"
 
+In the "Getting Started" folder is a list of people. For practice, open up the "List of People.mdown" file and add your name. It doesn't have to be your real name, though we'll be able to see your Github account eventually. Now save the file and run the `git status` command. You should see something like this:
+
+```
+# On branch master
+# Changes not staged for commit:
+#   (use "git add <file>..." to update what will be committed)
+#   (use "git checkout -- <file>..." to discard changes in working directory)
+#
+#   modified:   List of People.mdown
+#
+no changes added to commit (use "git add" and/or "git commit -a")
+```
+
+Understanding the idea behind a "commit" and your local changes is a major part of version control. Essentially, git can tell that the file has been altered, but it has yet to add your changes to its history of the project. You should feel free to go crazy and edit files all you want, including potentially breaking the project you're working on, but try to only commit a finished, working product because commits end up in the final history.
+
+When you're done with your edits, the `git add` command is where you stage your changes; you might edit one file, add it, edit another file, add it, and so on before actually running `git commit`. The commit command finalizes your changes and adds them to the project's history. Let's walk through this whole process, running `git status` throughout to see how things change.
+
+```
+$ git add List\ of\ People.mdown
+$ git status
+# On branch instructions
+# Changes to be committed:
+#   (use "git reset HEAD <file>..." to unstage)
+#
+#   modified:   readme.mdown
+#
+$ git commit -m "Adding my name"
+[master c43ae4d] Adding my name
+ 1 file changed, 1 insertion(+)
+$ git status
+# On branch master
+nothing to commit, working directory clean
+```
+
+We've gone from having a perfect clone of the original project, to some changes that are not recorded by git, to letting git know which files we're going to add to its history, to adding those changes to the history, and then ending with a confirmation that the "working directory [is] clean" meaning that the last commit git knows about and the state of our files is identical.
+
+You just made a `commit`! Sweet! If you're still skeptical, try running `git log` which prints out the last several commits. Yours will be at the top.
+
+```bash
+$ git log
+commit ca82a6dff817ec66f44342007202690a93763949
+Author: Awesome Sauce <awe@somesau.ce>
+Date:   Mon Feb 18 22:30:15 2013 -0500
+
+    Adding my name
+```
+
+### Digression on Escaping Spaces
+
+We have to type `List\ of\ People.mdown` instead of `List\ of\ People.mdown` because spaces are meaningful characters on the command line; they separate one command from the next. The \ escapes the following character. You can also wrap a string in quotes to escape it. But the biggest savior here can be tab completion; start typing "List" and then hit tab; suddenly, the rest of the file's name appears, escaped spaces and all. This can save you a lot of typing and help reduce mistakes.
+
+
 ## Fifth Step - Send a Pull Request to add your changes
 
 ## Sixth Step - View the project online & see your changes!

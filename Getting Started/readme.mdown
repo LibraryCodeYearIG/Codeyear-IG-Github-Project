@@ -2,6 +2,10 @@
 
 Here are the step by step instructions to getting rolling with Git and contributing on github.
 
+## ¡YOUTUBES!
+
+There is a [seven minute video](http://youtu.be/q6pGe2IUO5g) on YouTube that goes through this entire process. While it gives a good walk-through, it will probably be necessary to read the step-by-step directions below to figure out the how and why of it all.
+
 ## Note on command samples
 
 Lines beginning with `$` are commands that you type. The `$` just represents your command prompt, yours may differ (oftentimes the command prompt shows the current user and what directory they're in). Lines lacking a `$` are generally the output of commands; they're information or results that the commands are giving you.

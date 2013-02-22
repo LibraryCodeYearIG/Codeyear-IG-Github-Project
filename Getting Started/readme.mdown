@@ -107,7 +107,9 @@ $ git status
 nothing to commit, working directory clean
 ```
 
-We've gone from having a perfect clone of the original project, to some changes that are not recorded by Git, to letting Git know which files we're going to add to its history, to adding those changes to the history, and then ending with a confirmation that the "working directory [is] clean" meaning that the last commit Git knows about and the state of our files is identical.
+We've used the `commit` command in here, specifically `git commit -m`. The `-m` is a "flag" or option and in this case it stands for "message," so we're not only committing something to Git's history of the project but we're attaching the message "Add my name" to our commit. It is always a good idea to add a message explaining your changes. Many commands have multiple flags which can be very useful but `-m` is the only one we'll need for now.
+
+With but a handful of commands we've gone from having a perfect clone of the original project, to some changes that are not recorded by Git, to letting Git know which files we're going to add to its history, to adding those changes to the history, and then ending with a confirmation that the "working directory [is] clean" meaning that the last commit Git knows about and the current state of our files is identical.
 
 You just made a `commit`! Sweet! If you're still skeptical, try running `git log` which prints out the last several commits. Yours will be at the top.
 
@@ -123,7 +125,6 @@ Date:   Mon Feb 18 22:30:15 2013 -0500
 ### Digression on Escaping Spaces
 
 We have to type `List\ of\ People.mdown` instead of `List\ of\ People.mdown` because spaces are meaningful characters on the command line; they separate one command from the next. The \ escapes the following character. You can also wrap a string in quotes to escape it. But the biggest savior here can be tab completion; start typing "List" and then hit tab; suddenly, the rest of the file's name appears, escaped spaces and all. This can save you a lot of typing and help reduce mistakes.
-
 
 ## Fifth Step - Send a Pull Request to add your changes
 

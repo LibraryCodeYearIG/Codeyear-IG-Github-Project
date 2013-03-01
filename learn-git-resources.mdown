@@ -2,14 +2,16 @@
 
 ## Getting Setup
 
-Placeholder section for now. Installing and configuring git can be a big stumbling block.
+- [Pro Git](http://git-scm.com/book/ch1-4.html) chapter 1.4 covers installing git on Linux, Mac, & Windows
+- StackOverflow's [How to Install Git](http://stackoverflow.com/questions/315911/git-for-beginners-the-definitive-practical-guide#323764) covers all the major operating systems and installation methods
 
 ## Learn Git
 
-- ACRL TechConnect's "[Gentle Introduction to Modern Version Control](http://acrl.ala.org/techconnect/?p=1191)" by John Fink is a good starting point for understanding version control (the type of software git is)
+- ACRL TechConnect's "[Gentle Introduction to Modern Version Control](http://acrl.ala.org/techconnect/?p=1191)" by John Fink is a good starting point for understanding version control (the type of software Git is)
 - [OpenHatch](https://openhatch.org) has a _great_ "training mission" on [using git](https://openhatch.org/missions/git)
 - [Learning Git](https://speakerdeck.com/bitsandbooks/learning-git) presentation by Rob Dumas
 - Code School's [Try Git](http://www.codeschool.com/courses/try-git) course (looks like a few lessons are free, later ones are paid?). They also have a [Git Real](http://gitreal.codeschool.com/) course, difference between them is unclear.
+- [Git for Beginners (and Dropbox Users)](http://blog.hackersatberkeley.com/?p=151) by the Hackers@Berkeley blog gives a thorough walk-through of the first steps for using Git & Github
 
 ## Learn Github
 
@@ -22,14 +24,15 @@ Placeholder section for now. Installing and configuring git can be a big stumbli
 ## Git Reference & Books
 
 - [Git Reference](http://gitref.org/) documents various commands & options
-- [Pro Git](http://git-scm.com/book), a book about git that's more accessible than its title makes it sound
+- [Pro Git](http://git-scm.com/book), a book about Git that's more accessible than its title makes it sound
+- [Git for beginners: the definitive practical guide](http://stackoverflow.com/questions/315911/git-for-beginners-the-definitive-practical-guide) on StackOverFlow is less of a guide than a collection of StackOverflow links but it does answer many, many questions
 
 ## Git GUIs
 
-Graphical software that lets you use git without the command line.
+Graphical software that lets you use Git without the command line.
 
 - [Github for Mac](http://mac.github.com/)
 - [Github for Windows](http://windows.github.com/)
 - [Tower](http://www.git-tower.com/)
 
-There is [a list of GUIs](http://git-scm.com/downloads/guis) available on the official git website. They point to [an even more extensive list](https://delicious.com/matthew.mccullough/git+gui) on Delicious.
+There is [a list of GUIs](http://git-scm.com/downloads/guis) available on the official Git website. They point to [an even more extensive list](https://delicious.com/matthew.mccullough/git+gui) on Delicious.

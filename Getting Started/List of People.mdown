@@ -3,5 +3,6 @@
 Add your name and a link to your Github account below. Optionally, link to a picture of yourself.
 
 Eric Phetteplace ([phette23](http://github.com/phette23))
+Jessica Wood ([jlwood](http://github.com/jlwood))
 
 Having trouble? [Open an issue](https://github.com/phette23/Codeyear-IG-Github-Project/issues) (new issue button) and someone will reply with help.

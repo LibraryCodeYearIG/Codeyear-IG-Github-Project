@@ -128,6 +128,8 @@ Date:   Mon Feb 18 22:30:15 2013 -0500
     Adding my name
 ```
 
+You can exit `git log` by pressing the letter "q."
+
 We actually still need to do one more thing; our changes are in Git's history, but only the Git history _on our computer_. If we visit github.com/OurUsername/Codeyear-IG-Github-Project it still won't have our name on the List of People. We need to `push` our changes to the remote repository on Github. Luckily, this is a fairly simple command:
 
 ```bash

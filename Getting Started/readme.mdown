@@ -143,11 +143,11 @@ To https://github.com/OurUsername/Codeyear-IG-Github-Project.git
    07449e6..4257ccf  master -> master
 ```
 
-Now try visiting https://github.com/OurUsername/Codeyear-IG-Github-Project and browsing to the List of People; our name is on it! We've changed a file, added it to our local Git repository, and then pushed our local changes to the Git repository sitting in Github's cloud. This alone is pretty phenomenal; we now know how to publish our work online with a complete history included.
+Now try visiting github.com/OurUsername/Codeyear-IG-Github-Project and browsing to the List of People; our name is on it! We've changed a file, added it to our local Git repository, and then pushed our local changes to the Git repository sitting in Github's cloud. This alone is pretty phenomenal; we now know how to publish our work online with a complete history included.
 
 ### Digression on Escaping Spaces
 
-We have to type `List\ of\ People.mdown` instead of `List\ of\ People.mdown` because spaces are meaningful characters on the command line; they separate one command from the next. The \ [escapes](https://en.wikipedia.org/wiki/Escape_character#Programming_and_data_formats) the character that follows it. We can also wrap a string in quotes to escape it. But the biggest savior here can be tab completion; start typing "List" and then hit tab; suddenly, the rest of the file's name appears, escaped spaces and all. This can save us a lot of typing and help reduce mistakes.
+We have to type `List\ of\ People.mdown` instead of `List of People.mdown` because spaces are meaningful characters on the command line; they separate one command from the next. The \ [escapes](https://en.wikipedia.org/wiki/Escape_character#Programming_and_data_formats) the character that follows it. We can also wrap a string in quotes to escape it. But the biggest savior here can be tab completion; start typing "List" and then hit tab; suddenly, the rest of the file's name appears, escaped spaces and all. This can save us a lot of typing and help reduce mistakes.
 
 ## Fifth Step - Send a Pull Request to add your changes
 

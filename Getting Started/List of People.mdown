@@ -10,5 +10,7 @@ Bobbi Fox ([bobbi-SMR])
 
 Cedrick May([cedricktattoo](https://github.com/cedricktattoo))
 
+Kate Kosturski ([librariankate7578](https://github.com/librariankate7578))
+
 
 Having trouble? [Open an issue](https://github.com/phette23/Codeyear-IG-Github-Project/issues) (new issue button) and someone will reply with help.

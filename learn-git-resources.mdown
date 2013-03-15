@@ -18,8 +18,9 @@
 
 - [GitHub's Help dox](https://help.github.com/) are pretty good.
 - [learn.github.com](learn.github.com) has an overwhelming amount of material, perhaps too much to be useful
-- [How to GitHub](How to GitHub: Fork, Branch, Track, Squash and Pull Request) is a thorough walk-through of contributing to someone else's project on GitHub chock full of best practices like using a development branch & "squashing" commits using `git rebase`
-- [Let's Suck at GitHub Together](http://css-tricks.com/video-screencasts/101-lets-suck-at-github-together/) is a screencast by Chris Coyier (of [CSS-Tricks](http://css-tricks.com/)) showing the basics of git(hub) using the [Tower](http://www.git-tower.com/) app
+- [How to GitHub: Fork, Branch, Track, Squash and Pull
+  Request](https://gun.io/blog/how-to-github-fork-branch-and-pull-request/) is a thorough walk-through of contributing to someone else's project on Github chock full of best practices like using a development branch & "squashing" commits using `git rebase`
+- [Let's Suck at Github Together](http://css-tricks.com/video-screencasts/101-lets-suck-at-github-together/) is a screencast by Chris Coyier (of [CSS-Tricks](http://css-tricks.com/)) showing the basics of git(hub) using the [Tower](http://www.git-tower.com/) app
 - [Let's Attempt to do a Pull Request](http://css-tricks.com/video-screencasts/117-lets-attempt-to-do-a-pull-request/) is another screencast by Coyier. There's a lot of time spent wandering around lost but you do get to see the fundamentals of a pull request.
 
 ## Git Reference & Books

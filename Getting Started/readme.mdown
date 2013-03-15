@@ -151,9 +151,11 @@ We have to type `List\ of\ People.mdown` instead of `List of People.mdown` becau
 
 ## Fifth Step - Send a Pull Request to add your changes
 
-Up until now, we've been doing a whole lot of Git with very little "hub." We used the Fork button to copy the project, sure, but we're just playing by ourselves and not contributing back to the original Codeyear-IG-GitHub-Project.
+Up until now, we've been doing a whole lot of Git with very little "Hub." We used the Fork button to copy the project, sure, but we're just playing by ourselves and not contributing back to the original Codeyear-IG-GitHub-Project.
 
 We've changed our *local* repository, and pushed those local changes to the *remote* repository, but what about getting the changes from our remote into the Codeyear remote? Simple, we use GitHub's brilliant addition to version control, the Pull Request. ![Github's Pull Request button](pull-request-btn.png "Click me to submit your changes!")
+
+A "Pull Request" is one of the conceptually trickier things about GitHub. Obviously, we can't just let anyone contribute to any repository; someone could mess up our precious work! But we want to be able to review external contributions and "pull" in their changes. So when we send a Pull Request we're essentially saying "hey, you should pull these changes into the original project."
 
 Every GitHub repo (we're cool enough to just call them repos by now) has a Pull Request button up at the top. GitHub has [a nice help page](https://help.github.com/articles/creating-a-pull-request) that walks us through the process, which is basically:
 

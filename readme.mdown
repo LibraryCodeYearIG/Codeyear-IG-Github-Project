@@ -6,10 +6,14 @@ You do not have to be a member of the Library Code Year Interest Group to partic
 
 ## What do I do here?
 
-We will have three projects in this repository eventually: one introduction one to get you rolling with github, one web design one involving HTML/CSS/JavaScript, & one metadata project.
+We will have three projects in this repository eventually:
 
-- To get started: follow the instructions in [the getting started](https://github.com/LibraryCodeYearIG/Codeyear-IG-Github-Project/blob/master/Getting%20Started/readme.mdown) project. This will have you install git, set up an account on github, and contribute to this repository.
-- Web Design - project TBD! We've discussed something using the [Worldcat Search API](http://www.oclc.org/worldcatapi/default.htm) which could be easily reused at almost any library.
+>1. A "getting started" project to get you rolling with GitHub 
+2. A web design project involving HTML/CSS/JavaScript
+3. A metadata project.
+
+- To get started: follow the instructions in [the getting started](https://github.com/LibraryCodeYearIG/Codeyear-IG-Github-Project/blob/master/Getting%20Started/readme.mdown) project. This will have you install git, set up an account on GitHub, and contribute to this repository.
+- Web Design - project TBD! We've discussed something using the [Worldcat Search API](http://www.oclc.org/worldcatapi/default.htm), which could be easily reused at almost any library.
 - Metadata - project TBD! We've discussed working with Linked Data, specifically the [Friend-of-a-Friend](https://en.wikipedia.org/wiki/FOAF_(software)) ontology. Perhaps working with sample MARC records with the [pymarc](https://github.com/edsu/pymarc) or [ruby-marc](https://github.com/ruby-marc/ruby-marc) libraries, too.
 
 ## Very Much Under Construction
@@ -26,9 +30,9 @@ Right now the biggest priority is finishing the "Getting Started" project so tha
 
 ## What is Markdown?
 
-[Markdown](http://daringfireball.net/projects/markdown/basics)—the language this readme is written in—is a markup language, like HTML and XML, designed to be lightweight and easy to type quickly. Markdown files typically end in .md, .mdown, or .markdown. Github uses markdown as its preferred format for displaying readme files like this one.
+[Markdown](http://daringfireball.net/projects/markdown/basics)—the language this readme is written in—is a markup language, like HTML and XML, designed to be lightweight and easy to type quickly. Markdown files typically end in .md, .mdown, or .markdown. GitHub uses markdown as its preferred format for displaying readme files like this one.
 
-The full Markdown syntax documentation is [here](http://daringfireball.net/projects/markdown/syntax) and the Github-flavored documentation is [here](http://github.github.com/github-flavored-markdown/). The Github syntax is almost identical; one can get by without ever referencing its documentation. The most useful piece is highlighting specific programming languages like so:
+The full Markdown syntax documentation is [here](http://daringfireball.net/projects/markdown/syntax) and the Github-flavored documentation is [here](http://github.github.com/github-flavored-markdown/). The GitHub syntax is almost identical; one can get by without ever referencing its documentation. The most useful piece is highlighting specific programming languages like so:
 
     ```javascript
     // your code goes here

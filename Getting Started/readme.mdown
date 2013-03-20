@@ -1,6 +1,6 @@
 # Instructions
 
-Here are the step by step instructions to getting rolling with Git and contributing on github.
+Here are the step by step instructions to getting rolling with Git and contributing on GitHub.
 
 ## ¡YOUTUBES!
 
@@ -10,11 +10,11 @@ There is a [seven minute video](http://youtu.be/q6pGe2IUO5g) on YouTube that goe
 
 Lines beginning with `$` are commands that you type. The `$` just represents your command prompt, yours may differ (oftentimes the command prompt shows the current user and what directory they're in). Lines lacking a `$` are generally the output of commands; they're information or results that the commands are giving you.
 
-## What is Git? What is Github?
+## What is Git? What is GitHub?
 
 Git is an open source [version control](https://en.wikipedia.org/wiki/Version_control) software. Think of it as a way to manage multiple people working on the same project; Git allows them to smartly "merge" changes to avoid conflicts. It also keeps a history of the project, so that you can roll back to a time before an error was introduced.
 
-Github is a cloud-based storage site for git. It is a central place where everyone can download projects, track ongoing issues, and view information. It's not the only such site—[Gitorious](https://gitorious.org/) is another one, for example—but it's very popular and has some nice features.
+GitHub is a cloud-based storage site for git. It is a central place where everyone can download projects, track ongoing issues, and view information. It's not the only such site—[Gitorious](https://gitorious.org/) is another one, for example—but it's very popular and has some nice features.
 
 ## First Step - Install Git
 
@@ -48,7 +48,7 @@ export PATH="/path/to/git/bin:$PATH"
 
 to the .bash_profile file in your home directory (create a .bash_profile if none exists). This `export` command essentially says "prepend the path to Git to my PATH environment variable" and it has the effect of making the Git command available in your Terminal.
 
-## Second Step - Create a Github account
+## Second Step - Create a GitHub account
 
 This is one of the easier steps - just visit [Github](https://github.com/) and register a username, pick a password, etc. Now we just need to tell Git our name and email. In a Terminal, run these commands:
 
@@ -59,7 +59,7 @@ $ git config --global user.email "you@email.com"
 
 ## Third Step - "Fork" and "clone" this repository
 
-Up at the top of this repository's Github page, click the "Fork" button. An exact copy of the project will be added to our Github account. Now all we need to do is clone the project from Github onto your computer. Open up a Terminal and type
+Up at the top of this repository's GitHub page, click the "Fork" button. An exact copy of the project will be added to our GitHub account. Now all we need to do is clone the project from GitHub onto your computer. Open up a Terminal and type
 
 ```bash
 $ git clone https://github.com/OurUsername/Codeyear-IG-Github-Project.git
@@ -79,7 +79,7 @@ Now, inside the Codeyear-IG-Github-Project folder, we have all the files of this
 
 ## Fourth Step - Add your name to the "List of People"
 
-In the "Getting Started" folder is a list of people. For practice, open up the "List of People.mdown" file and add your name. It doesn't have to be your real name, though your Github account will be associated with your changes eventually. Now save the file and run the `git status` command. We should see something like this:
+In the "Getting Started" folder is a list of people. For practice, open up the "List of People.mdown" file and add your name. It doesn't have to be your real name, though your GitHub account will be associated with your changes eventually. Now save the file and run the `git status` command. We should see something like this:
 
 ```bash
 # On branch master
@@ -130,7 +130,7 @@ Date:   Mon Feb 18 22:30:15 2013 -0500
 
 You can exit `git log` by pressing the letter "q."
 
-We actually still need to do one more thing; our changes are in Git's history, but only the Git history _on our computer_. If we visit github.com/OurUsername/Codeyear-IG-Github-Project it still won't have our name on the List of People. We need to `push` our changes to the remote repository on Github. Luckily, this is a fairly simple command:
+We actually still need to do one more thing; our changes are in Git's history, but only the Git history _on our computer_. If we visit github.com/OurUsername/Codeyear-IG-Github-Project it still won't have our name on the List of People. We need to `push` our changes to the remote repository on GitHub. Luckily, this is a fairly simple command:
 
 ```bash
 $ git push
@@ -143,7 +143,7 @@ To https://github.com/OurUsername/Codeyear-IG-Github-Project.git
    07449e6..4257ccf  master -> master
 ```
 
-Now try visiting github.com/OurUsername/Codeyear-IG-Github-Project and browsing to the List of People; our name is on it! We've changed a file, added it to our local Git repository, and then pushed our local changes to the Git repository sitting in Github's cloud. This alone is pretty phenomenal; we now know how to publish our work online with a complete history included.
+Now try visiting github.com/OurUsername/Codeyear-IG-Github-Project and browsing to the List of People; our name is on it! We've changed a file, added it to our local Git repository, and then pushed our local changes to the Git repository sitting in GitHub's cloud. This alone is pretty phenomenal; we now know how to publish our work online with a complete history included.
 
 ### Digression on Escaping Spaces
 
@@ -151,11 +151,13 @@ We have to type `List\ of\ People.mdown` instead of `List of People.mdown` becau
 
 ## Fifth Step - Send a Pull Request to add your changes
 
-Up until now, we've been doing a whole lot of Git with very little "hub." We used the Fork button to copy the project, sure, but we're just playing by ourselves and not contributing back to the original Codeyear-IG-Github-Project.
+Up until now, we've been doing a whole lot of Git with very little "Hub." We used the Fork button to copy the project, sure, but we're just playing by ourselves and not contributing back to the original Codeyear-IG-GitHub-Project.
 
-We've changed our *local* repository, and pushed those local changes to the *remote* repository, but what about getting the changes from our remote into the Codeyear remote? Simple, we use Github's brilliant addition to version control, the Pull Request. ![Github's Pull Request button](pull-request-btn.png "Click me to submit your changes!")
+We've changed our *local* repository, and pushed those local changes to the *remote* repository, but what about getting the changes from our remote into the Codeyear remote? Simple, we use GitHub's brilliant addition to version control, the Pull Request. ![Github's Pull Request button](pull-request-btn.png "Click me to submit your changes!")
 
-Every Github repo (we're cool enough to just call them repos by now) has a Pull Request button up at the top. Github has [a nice help page](https://help.github.com/articles/creating-a-pull-request) that walks us through the process, which is basically:
+A "Pull Request" is one of the conceptually trickier things about GitHub. Obviously, we can't just let anyone contribute to any repository; someone could mess up our precious work! But we want to be able to review external contributions and "pull" in their changes. So when we send a Pull Request we're essentially saying "hey, you should pull these changes into the original project."
+
+Every GitHub repo (we're cool enough to just call them repos by now) has a Pull Request button up at the top. GitHub has [a nice help page](https://help.github.com/articles/creating-a-pull-request) that walks us through the process, which is basically:
 
 - Go to your repo and click "Pull Request"
 - Pick the Master branch—it's the only branch we have right now—and then select the corresponding Master branch of LibraryCodeYearIG/Codeyear-IG-Github-Project as the target to receive your changes
@@ -166,7 +168,7 @@ Someone from the Libcodeyear organization will review your pull request and acce
 
 ## Sixth Step - View the project online & see your changes!
 
-You just contributed to a project on Github, congratulations! Pretty cool, isn't it? In the future, we hope to have further projects which are more complicated and necessitate using some of Git's advanced features. For now, relax and get yourself a delicious beverage, you've earned it.
+You just contributed to a project on GitHub, congratulations! Pretty cool, isn't it? In the future, we hope to have further projects which are more complicated and necessitate using some of Git's advanced features. For now, relax and get yourself a delicious beverage, you've earned it.
 
 ## I'm addicted; where can I do more?
 

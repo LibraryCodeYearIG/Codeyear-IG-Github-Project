@@ -13,6 +13,7 @@
 - Code School's [Try Git](http://www.codeschool.com/courses/try-git) course (looks like a few lessons are free, later ones are paid?). They also have a [Git Real](http://gitreal.codeschool.com/) course, difference between them is unclear.
 - [Understanding Git Conceptually](http://sbf5.com/~cduan/technical/git/) is a well-written walkthrough by Charles Duan that provides a more thorough explanation of what's going on than most other sources
 - [Git for Beginners (and Dropbox Users)](http://blog.hackersatberkeley.com/?p=151) by the Hackers@Berkeley blog gives a thorough walk-through of the first steps for using Git & GitHub
+- Once you've got some commands under your belt, the [Git Cheat Sheet](http://byte.kde.org/~zrusin/git/git-cheat-sheet-medium.png) is a good place to go to learn more
 
 ## Learn GitHub
 

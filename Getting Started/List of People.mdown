@@ -14,6 +14,6 @@ Kate Kosturski ([librariankate7578](https://github.com/librariankate7578))
 
 Jodie Gambill ([jgambill](https://github.com/jgambill))
 
-Coral Sheldon-Hess ([weblibrarian](https://github.com/weblibrarian))
+Coral Sheldon-Hess ([weblibrarian](https://github.com/weblibrarian)) 
 
 Having trouble? [Open an issue](https://github.com/phette23/Codeyear-IG-Github-Project/issues) (new issue button) and someone will reply with help.

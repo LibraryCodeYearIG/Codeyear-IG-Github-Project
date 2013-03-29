@@ -75,7 +75,7 @@ remote: Total 70 (delta 34), reused 47 (delta 11)
 Unpacking objects: 100% (70/70), done.
 ```
 
-Now, inside the Codeyear-IG-Github-Project folder, we have all the files of this project on your computer. Not only that, because this is a cloned Git repository, we have the entire _history_ of the project. Try moving into the project's directory with `cd Codeyear-IG-Github-Project` and running `git log` to see the last few things that changed in the repository.
+Now, inside the Codeyear-IG-Github-Project folder, we have all the files of this project on your computer. Not only that, because this is a cloned Git repository, we have the entire _history_ of the project. Try moving into the project's directory with `cd Codeyear-IG-Github-Project` and running `git log` to see the last few things that changed in the repository. Typing the letter `q` will exit `git log`.
 
 ## Fourth Step - Add your name to the "List of People"
 

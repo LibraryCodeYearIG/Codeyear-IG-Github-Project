@@ -18,4 +18,6 @@ Coral Sheldon-Hess ([weblibrarian](https://github.com/weblibrarian))
 
 Heather Rayl([23eris](https://github.com/23eris))
 
+Susan Borda ([mutanthumb] (https://github.com/mutanthumb))
+
 Having trouble? [Open an issue](https://github.com/phette23/Codeyear-IG-Github-Project/issues) (new issue button) and someone will reply with help.

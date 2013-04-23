@@ -9,6 +9,7 @@
 
 - ACRL TechConnect's "[Gentle Introduction to Modern Version Control](http://acrl.ala.org/techconnect/?p=1191)" by John Fink is a good starting point for understanding version control (the type of software Git is)
 - [OpenHatch](https://openhatch.org) has a _great_ "training mission" on [using git](https://openhatch.org/missions/git)
+- [Git Ready](http://gitready.com) is a nice set of command explanations, categorized "beginner," "intermediate," and "advanced"
 - [Learning Git](https://speakerdeck.com/bitsandbooks/learning-git) presentation by Rob Dumas
 - Code School's [Try Git](http://www.codeschool.com/courses/try-git) course (looks like a few lessons are free, later ones are paid?). They also have a [Git Real](http://gitreal.codeschool.com/) course, difference between them is unclear.
 - [Understanding Git Conceptually](http://sbf5.com/~cduan/technical/git/) is a well-written walkthrough by Charles Duan that provides a more thorough explanation of what's going on than most other sources

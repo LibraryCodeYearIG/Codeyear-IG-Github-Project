@@ -10,19 +10,13 @@
 - ACRL TechConnect's "[Gentle Introduction to Modern Version Control](http://acrl.ala.org/techconnect/?p=1191)" by John Fink is a good starting point for understanding version control (the type of software Git is)
 - [OpenHatch](https://openhatch.org) has a _great_ "training mission" on [using git](https://openhatch.org/missions/git)
 - [Git Ready](http://gitready.com) is a nice set of command explanations, categorized "beginner," "intermediate," and "advanced"
-- [Learning Git](https://speakerdeck.com/bitsandbooks/learning-git) presentation by Rob Dumas
-- Code School's [Try Git](http://www.codeschool.com/courses/try-git) course (looks like a few lessons are free, later ones are paid?). They also have a [Git Real](http://gitreal.codeschool.com/) course, difference between them is unclear.
-- [Understanding Git Conceptually](http://sbf5.com/~cduan/technical/git/) is a well-written walkthrough by Charles Duan that provides a more thorough explanation of what's going on than most other sources
-- [Git for Beginners (and Dropbox Users)](http://blog.hackersatberkeley.com/?p=151) by the Hackers@Berkeley blog gives a thorough walk-through of the first steps for using Git & GitHub
-- Once you've got some commands under your belt, the [Git Cheat Sheet](http://byte.kde.org/~zrusin/git/git-cheat-sheet-medium.png) is a good place to go to learn more
+- Code School's [Try Git](http://www.codeschool.com/courses/try-git) course (looks like a few lessons are free, later ones are paid?).
+- Once you have some commands under your belt, the [Git Cheat Sheet](http://byte.kde.org/~zrusin/git/git-cheat-sheet-medium.png) is a good place to go to learn more
 
 ## Learn GitHub
 
 - [GitHub's Help dox](https://help.github.com/) are pretty good.
-- [learn.github.com](learn.github.com) has an overwhelming amount of material, perhaps too much to be useful
 - [How to GitHub: Fork, Branch, Track, Squash and Pull Request](https://gun.io/blog/how-to-github-fork-branch-and-pull-request/) is a thorough walk-through of contributing to someone else's project on Github chock full of best practices like using a development branch & "squashing" commits using `git rebase`
-- [Let's Suck at Github Together](http://css-tricks.com/video-screencasts/101-lets-suck-at-github-together/) is a screencast by Chris Coyier (of [CSS-Tricks](http://css-tricks.com/)) showing the basics of git(hub) using the [Tower](http://www.git-tower.com/) app
-- [Let's Attempt to do a Pull Request](http://css-tricks.com/video-screencasts/117-lets-attempt-to-do-a-pull-request/) is another screencast by Coyier. There's a lot of time spent wandering around lost but you do get to see the fundamentals of a pull request.
 
 ## Learn the Command Line
 
@@ -34,7 +28,6 @@ While not required knowledge to use git (see the Git GUIs below), a basic famili
 
 - [Git Reference](http://gitref.org/) documents various commands & options
 - [Pro Git](http://git-scm.com/book), a book about Git that's more accessible than its title makes it sound
-- [Git for beginners: the definitive practical guide](http://stackoverflow.com/questions/315911/git-for-beginners-the-definitive-practical-guide) on StackOverFlow is less of a guide than a collection of StackOverflow links but it does answer many, many questions
 
 ## Git GUIs
 
@@ -44,4 +37,4 @@ Graphical software that lets you use Git without the command line.
 - [GitHub for Windows](http://windows.github.com/)
 - [Tower](http://www.git-tower.com/)
 
-There is [a list of GUIs](http://git-scm.com/downloads/guis) available on the official Git website. They point to [an even more extensive list](https://delicious.com/matthew.mccullough/git+gui) on Delicious.
+There is [a list of GUIs](http://git-scm.com/downloads/guis) available on the official Git website.

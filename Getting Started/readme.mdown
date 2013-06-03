@@ -62,7 +62,7 @@ There is a [seven-minute video](http://youtu.be/q6pGe2IUO5g) on YouTube that goe
 Up at the top of this repository's GitHub page, click the "Fork" button. An exact copy of the project will be added to our GitHub account. Now all we need to do is clone the project from GitHub onto your computer. Open up a Terminal and type
 
 ```bash
-$ git clone https://github.com/OurUsername/Codeyear-IG-Github-Project.git
+$ git clone https://github.com/YourUsername/Codeyear-IG-Github-Project.git
 ```
 
 We'll see a result like this:

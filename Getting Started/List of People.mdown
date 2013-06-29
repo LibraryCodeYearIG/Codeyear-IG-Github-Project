@@ -22,4 +22,6 @@ Susan Borda ([mutanthumb] (https://github.com/mutanthumb))
 
 Philip Scriber ([pscriber] (https://github.com/pscriber))
 
+Erin Jonaitis ([emjonaitis] (https://github.com/emjonaitis))
+
 Having trouble? [Open an issue](https://github.com/phette23/Codeyear-IG-Github-Project/issues) (new issue button) and someone will reply with help.

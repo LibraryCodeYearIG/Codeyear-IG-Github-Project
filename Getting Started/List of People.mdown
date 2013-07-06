@@ -24,4 +24,6 @@ Philip Scriber ([pscriber] (https://github.com/pscriber))
 
 Erin Jonaitis ([emjonaitis] (https://github.com/emjonaitis))
 
+Natalie Pollecutt ([pollecuttn] (https://github.com/pollecuttn))
+
 Having trouble? [Open an issue](https://github.com/phette23/Codeyear-IG-Github-Project/issues) (new issue button) and someone will reply with help.

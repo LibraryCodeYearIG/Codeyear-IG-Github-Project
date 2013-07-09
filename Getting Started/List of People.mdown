@@ -2,28 +2,28 @@
 
 Add your name and a link to your Github account below. Optionally, link to a picture of yourself.
 
-Eric Phetteplace ([phette23](http://github.com/phette23))
+1. Eric Phetteplace ([phette23](http://github.com/phette23))
 
-Jessica Wood ([jlwood](http://github.com/jlwood))
+1. Jessica Wood ([jlwood](http://github.com/jlwood))
 
-Bobbi Fox ([bobbi-SMR](http://github.com/bobbi-SMR))
+1. Bobbi Fox ([bobbi-SMR](http://github.com/bobbi-SMR))
 
-Cedrick May([cedricktattoo](https://github.com/cedricktattoo))
+1. Cedrick May([cedricktattoo](https://github.com/cedricktattoo))
 
-Kate Kosturski ([librariankate7578](https://github.com/librariankate7578))
+1. Kate Kosturski ([librariankate7578](https://github.com/librariankate7578))
 
-Jodie Gambill ([jgambill](https://github.com/jgambill))
+1. Jodie Gambill ([jgambill](https://github.com/jgambill))
 
-Coral Sheldon-Hess - again ([weblibrarian](https://github.com/weblibrarian))
+1. Coral Sheldon-Hess - again ([weblibrarian](https://github.com/weblibrarian))
 
-Heather Rayl([23eris](https://github.com/23eris))
+1. Heather Rayl([23eris](https://github.com/23eris))
 
-Susan Borda ([mutanthumb] (https://github.com/mutanthumb))
+1. Susan Borda ([mutanthumb] (https://github.com/mutanthumb))
 
-Philip Scriber ([pscriber] (https://github.com/pscriber))
+1. Philip Scriber ([pscriber] (https://github.com/pscriber))
 
-Erin Jonaitis ([emjonaitis] (https://github.com/emjonaitis))
+1. Erin Jonaitis ([emjonaitis] (https://github.com/emjonaitis))
 
-Natalie Pollecutt ([pollecuttn] (https://github.com/pollecuttn))
+1. Natalie Pollecutt ([pollecuttn] (https://github.com/pollecuttn))
 
 Having trouble? [Open an issue](https://github.com/phette23/Codeyear-IG-Github-Project/issues) (new issue button) and someone will reply with help.

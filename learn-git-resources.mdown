@@ -11,6 +11,7 @@
 - [OpenHatch](https://openhatch.org) has a _great_ "training mission" on [using git](https://openhatch.org/missions/git)
 - [Git Ready](http://gitready.com) is a nice set of command explanations, categorized "beginner," "intermediate," and "advanced"
 - Code School's [Try Git](http://www.codeschool.com/courses/try-git) course (looks like a few lessons are free, later ones are paid?).
+- [Git Immersion](http://gitimmersion.com/lab_01.html) has a step-by-step tutorial that takes you from set-up to managing multiple repositories rather quickly.
 - Once you have some commands under your belt, the [Git Cheat Sheet](http://byte.kde.org/~zrusin/git/git-cheat-sheet-medium.png) is a good place to go to learn more
 
 ## Learn GitHub

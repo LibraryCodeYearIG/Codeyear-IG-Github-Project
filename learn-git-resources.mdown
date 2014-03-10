@@ -15,6 +15,7 @@
 
 ## Learn GitHub
 
+- [Git-it](https://github.com/jlord/git-it) is a command-line tutorial on both git & GitHub by GitHub employee [Jessica Lord](https://github.com/jlord)
 - [GitHub's Help dox](https://help.github.com/) are pretty good.
 - [How to GitHub: Fork, Branch, Track, Squash and Pull Request](https://gun.io/blog/how-to-github-fork-branch-and-pull-request/) is a thorough walk-through of contributing to someone else's project on Github chock full of best practices like using a development branch & "squashing" commits using `git rebase`
 

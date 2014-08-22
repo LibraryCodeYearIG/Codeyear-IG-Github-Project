@@ -28,4 +28,6 @@ Add your name and a link to your Github account below. Optionally, link to a pic
 
 1. Leanne Finnigan ([lfinniga] (https://github.com/lfinniga))
 
+1. Mark Eaton ([MarkEEaton] (https://github.com/MarkEEaton))
+
 Having trouble? [Open an issue](https://github.com/phette23/Codeyear-IG-Github-Project/issues) (new issue button) and someone will reply with help.

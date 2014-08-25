@@ -168,7 +168,7 @@ Someone from the Libcodeyear organization will review your pull request and acce
 
 ## Sixth Step - View the project online & see your changes!
 
-You just contributed to a project on GitHub, congratulations! Pretty cool, isn't it? In the future, we hope to have further projects which are more complicated and necessitate using some of Git's advanced features. For now, relax and get yourself a delicious beverage, you've earned it.
+You just contributed to a project on GitHub, congratulations! Pretty cool, isn't it? Relax and get yourself a delicious beverage, you've earned it.
 
 ## I'm addicted; where can I do more?
 

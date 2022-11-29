@@ -2,40 +2,36 @@
 
 ## Getting Setup
 
-- [Pro Git](http://git-scm.com/book/ch1-4.html) chapter 1.4 covers installing git on Linux, Mac, & Windows
-- StackOverflow's [How to Install Git](http://stackoverflow.com/questions/315911/git-for-beginners-the-definitive-practical-guide#323764) covers all the major operating systems and installation methods
+- [Pro Git](https://git-scm.com/book/ch1-4.html) chapter 1.4 covers installing git on Linux, Mac, & Windows
+- StackOverflow's [How to Install Git](https://stackoverflow.com/questions/315911/git-for-beginners-the-definitive-practical-guide#323764) covers all the major operating systems and installation methods
 
 ## Learn Git
 
-- ACRL TechConnect's "[Gentle Introduction to Modern Version Control](http://acrl.ala.org/techconnect/?p=1191)" by John Fink is a good starting point for understanding version control (the type of software Git is)
-- [OpenHatch](https://openhatch.org) has a _great_ "training mission" on [using git](https://openhatch.org/missions/git)
-- [Git Ready](http://gitready.com) is a nice set of command explanations, categorized "beginner," "intermediate," and "advanced"
-- Code School's [Try Git](http://www.codeschool.com/courses/try-git) course (looks like a few lessons are free, later ones are paid?).
-- Once you have some commands under your belt, the [Git Cheat Sheet](http://byte.kde.org/~zrusin/git/git-cheat-sheet-medium.png) is a good place to go to learn more
+- ACRL TechConnect's "[Gentle Introduction to Modern Version Control](https://acrl.ala.org/techconnect/?p=1191)" by John Fink is a good starting point for understanding version control (the type of software Git is)
+- [Git Ready](https://gitready.com) is a nice set of command explanations, categorized "beginner," "intermediate," and "advanced"
+- Code School's [Try Git](https://www.codeschool.com/courses/try-git) course (looks like a few lessons are free, later ones are paid?).
 
 ## Learn GitHub
 
 - [Git-it](https://github.com/jlord/git-it) is a command-line tutorial on both git & GitHub by GitHub employee [Jessica Lord](https://github.com/jlord)
-- [GitHub's Help dox](https://help.github.com/) are pretty good.
+- [GitHub's Help dox](https://support.github.com/) are pretty good.
 - [How to GitHub: Fork, Branch, Track, Squash and Pull Request](https://gun.io/blog/how-to-github-fork-branch-and-pull-request/) is a thorough walk-through of contributing to someone else's project on Github chock full of best practices like using a development branch & "squashing" commits using `git rebase`
 
 ## Learn the Command Line
 
 While not required knowledge to use git (see the Git GUIs below), a basic familiarity with the command line is useful in using Git and understanding what's going on.
 
-- [Command Line Basics Series](http://drupalize.me/series/command-line-basics-series) by Lullabot, a team of [Drupal](http://drupal.org) experts
+- [Command Line Basics Series](https://drupalize.me/series/command-line-basics-series) by Lullabot, a team of [Drupal](https://drupal.org) experts
 
 ## Git Reference & Books
 
-- [Git Reference](http://gitref.org/) documents various commands & options
-- [Pro Git](http://git-scm.com/book), a book about Git that's more accessible than its title makes it sound
+- [Pro Git](https://git-scm.com/book), a book about Git that's more accessible than its title makes it sound
 
 ## Git GUIs
 
 Graphical software that lets you use Git without the command line.
 
-- [GitHub for Mac](http://mac.github.com/)
-- [GitHub for Windows](http://windows.github.com/)
-- [Tower](http://www.git-tower.com/)
+- [GitHub Desktop](https://desktop.github.com/) (you will be directed to the Mac or Windows version depending on your operating system)
+- [Tower](https://www.git-tower.com/)
 
-There is [a list of GUIs](http://git-scm.com/downloads/guis) available on the official Git website.
+There is [a list of GUIs](https://git-scm.com/downloads/guis) available on the official Git website.
